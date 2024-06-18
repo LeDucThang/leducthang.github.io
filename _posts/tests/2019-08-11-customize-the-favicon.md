@@ -17,6 +17,8 @@ Pod scaling in Kubernetes refers to the process of adjusting the number of pod r
 ## Manual Scaling
 
 
+
+
 ### Using `kubectl`
 
 Manual scaling is straightforward and is typically done using the `kubectl` command-line tool. Here's an example of how to manually scale a deployment named `my-app` to 5 replicas:
