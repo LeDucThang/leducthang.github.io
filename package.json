@@ -20,8 +20,7 @@
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",
-    "test": "npm run lint:scss",
-    "prepare": "husky"
+    "test": "npm run lint:scss"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -42,7 +41,6 @@
     "@semantic-release/git": "^10.0.1",
     "concurrently": "^8.2.2",
     "conventional-changelog-conventionalcommits": "^8.0.0",
-    "husky": "^9.0.11",
     "purgecss": "^6.0.0",
     "rollup": "^4.18.0",
     "semantic-release": "^24.0.0",
