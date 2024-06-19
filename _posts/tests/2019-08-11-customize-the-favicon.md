@@ -17,6 +17,15 @@ Pod scaling in Kubernetes refers to the process of adjusting the number of pod r
 ## Manual Scaling
 
 
+<pre class="mermaid">
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+</pre>
+
 
 
 ### Using `kubectl`
